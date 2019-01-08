@@ -25,15 +25,14 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>3.9.1</muleVersion>
-						<username>kiran_padam123</username>
-						<password>Eaiesb@123</password>
-						<applicationName>calculator-munit</applicationName>
-						<environment>Sandbox</environment>
-					</cloudHubDeployment>
-				</configuration>
+					<deploymentType>cloudhub</deploymentType> 
+		    	                <muleVersion>3.9.1</muleVersion>
+		    	                <username>kiran_padam123</username> 
+		    	                <password>Eaiesb@123</password>
+		    	                <workerType>Micro</workerType> 
+		    	                <redeploy>true</redeploy> 
+		    	                <environment>Sandbox</environment>
+				        </configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
