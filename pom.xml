@@ -28,20 +28,9 @@
 		    	<deploymentType>cloudhub</deploymentType> 
 		    	<muleVersion>3.9.1</muleVersion>
 		    	<username>kiran_padam123</username> 
-		    	<password>Eaiesb@123</password>
-		    	<workerType>Micro</workerType> 
-		    	<redeploy>true</redeploy> 
+		    	<password>Eaiesb@123</password> 
 		    	<environment>Sandbox</environment>
-		    	</configuration> 
-		    	<executions>
-		    		<execution>
-		     			<goals> 
-		        			<goal>deploy</goal>
-		      			</goals> 
-		     		</execution>
-		    	</executions> 
-				
-				
+		    	</configuration>	
 		</plugin>
 			<plugin>
                            <groupId>org.mule.tools.maven</groupId>
