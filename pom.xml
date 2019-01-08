@@ -30,7 +30,7 @@
 						<muleVersion>3.9.1</muleVersion>
 						<username>kiran_padam123</username>
 						<password>Eaiesb@123</password>
-						<applicationName>calculator</applicationName>
+						<applicationName>calculator-munit</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
