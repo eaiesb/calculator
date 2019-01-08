@@ -33,6 +33,13 @@
                                         <environment>Sandbox</environment> 
                                         <uri>https://anypoint.mulesoft.com</uri> 
 				        </configuration>
+				<executions>
+		    		<execution>
+		     			<goals> 
+		        			<goal>deploy</goal>
+		      			</goals> 
+		     		</execution>
+		    	</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
