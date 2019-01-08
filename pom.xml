@@ -39,13 +39,7 @@
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<version>1.7</version>
 				<executions>
-					<execution>
-            <id>deploy</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>deploy</goal>
-            </goals>
-          </execution>
+	
 					<execution>
 						
 						<id>add-resource</id>
