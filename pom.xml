@@ -26,7 +26,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
-                                        <muleVersion>3.9.1</muleVersion> 
+                                        <muleVersion>3.9.2</muleVersion> 
                                         <username>kiran_padam123</username> 
                                         <password>Eaiesb@123</password> 
                                         <applicationName>calculator-munit</applicationName>
