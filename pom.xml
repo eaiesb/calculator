@@ -29,9 +29,14 @@
 				<username>kiran_padam123</username>
 				<password>Eaiesb@123</password>
 				<environment>Sandbox</environment>
-					
-				</configuration>
-                                
+			</configuration>
+                         <executions>
+		    		<execution>
+		     			<goals> 
+		        			<goal>deploy</goal>
+		      			</goals> 
+		     		</execution>
+		    	</executions>        
 				
 		</plugin>
 			<plugin>
