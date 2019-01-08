@@ -25,21 +25,9 @@
 			 <version>${mule.tools.version}</version>
 			<extensions>true</extensions>
 		    	<configuration>
-		    	<deploymentType>cloudhub</deploymentType> 
-		    	<muleVersion>3.9.1</muleVersion>
-		    	<username>kiran_padam123</username> 
-		    	<password>Eaiesb@123</password> 
-		    	<environment>Sandbox</environment>
+		    	
 		    	</configuration>
-				<executions>
-                                   <execution>
-                                      <id>deploy</id>
-                                      <phase>deploy</phase>
-                                         <goals>
-                                               <goal>deploy</goal>
-                                         </goals>
-                                    </execution>
-                                </executions>
+				
 		</plugin>
 			<plugin>
                            <groupId>org.mule.tools.maven</groupId>
