@@ -153,20 +153,7 @@
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
-		<repository>
-             <id>apache-snapshots</id>
-             <name>Apache Snapshots Repository</name>
-             <url>http://people.apache.org/repo/m2-snapshot-repository</url>
-             <layout>default</layout>
-             <snapshots>
-                 <enabled>true</enabled>
-                 <updatePolicy>always</updatePolicy>
-                 <checksumPolicy>ignore</checksumPolicy>
-             </snapshots>
-             <releases>
-                 <enabled>false</enabled>
-             </releases>
-         </repository>
+		
     </repositories>
     <pluginRepositories>
         <pluginRepository>
