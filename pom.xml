@@ -164,7 +164,7 @@
 	<repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
-            <url>http://repository.mulesoft.org/releases/</url>
+            <url>/var/lib/jenkins/.m2</url>
             <layout>default</layout>
         </repository>
 	</distributionManagement>
