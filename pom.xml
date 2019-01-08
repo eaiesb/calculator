@@ -23,7 +23,7 @@
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <url>http://domain:port/content/repositories/snapshots</url>
+        <url>http://domain/content/repositories/snapshots</url>
     </snapshotRepository>
 </distributionManagement>
 	<build>
