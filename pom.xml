@@ -25,6 +25,7 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<uri>https://anypoint.mulesoft.com</uri>
 					<deploymentType>cloudhub</deploymentType> 
 		    	                <muleVersion>3.9.1</muleVersion>
 		    	                <username>kiran_padam123</username> 
