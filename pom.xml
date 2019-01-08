@@ -23,35 +23,16 @@
 			 <artifactId>mule-app-maven-plugin</artifactId>
 			 <version>${mule.tools.version}</version>
 			<extensions>true</extensions>
-		    	<profile>
-  <id>cloudhub</id>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.mule.tools.maven</groupId>
-        <artifactId>mule-maven-plugin</artifactId>
-        <configuration>
-          <deploymentType>cloudhub</deploymentType>
-          <muleVersion>3.9.1</muleVersion> 
-          <username>kiran_padam123</username> 
-          <password>Eaiesb@123</password> 
-          <applicationName>Calculator-munit</applicationName>
-          <environment>Sandbox</environment> 
-          <uri>https://anypoint.mulesoft.com</uri> 
-        </configuration>
-        <executions>
-          <execution>
-            <id>deploy</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>deploy</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-</profile>
+		    	<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>3.9.1</muleVersion>
+						<username>kiran_padam123</username>
+						<password>Eaiesb@123</password>
+						<applicationName>calculator-munit</applicationName>
+						<environment>Sandbox</environment>
+					</cloudHubDeployment>
+				</configuration>
 
 				
 		</plugin>
