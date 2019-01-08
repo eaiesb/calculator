@@ -16,6 +16,14 @@
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>
+	<distributionManagement>
+    <repository>
+              <id>mulesoft-public</id>
+              <name>MuleSoft Public Repository</name>
+              <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+              <layout>default</layout>
+            </repository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
