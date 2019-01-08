@@ -33,7 +33,6 @@
 						<applicationName>calculator-munit</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
