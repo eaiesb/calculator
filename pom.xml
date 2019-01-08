@@ -31,13 +31,7 @@
 				<environment>Sandbox</environment>
 					
 				</configuration>
-                                <executions>
-		    		<execution>
-		     			<goals> 
-		        			<goal>deploy</goal>
-		      			</goals> 
-		     		</execution>
-		    	</executions> 
+                                
 				
 		</plugin>
 			<plugin>
