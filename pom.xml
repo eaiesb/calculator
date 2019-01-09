@@ -74,6 +74,7 @@
       <plugin>
         <groupId>org.mule.tools.maven</groupId>
         <artifactId>mule-maven-plugin</artifactId>
+	      <version>1.7</version>
         <configuration>
           <deploymentType>cloudhub</deploymentType>
           <muleVersion>3.9.1</muleVersion> 
