@@ -90,6 +90,11 @@
 
 	<!-- Mule Dependencies -->
 	<dependencies>
+		<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-deploy-plugin</artifactId>
+    <version>2.8.2</version>
+</dependency>
 		<!-- Xml configuration -->
 		<dependency>
         	<groupId>com.mulesoft.muleesb</groupId>
