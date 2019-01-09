@@ -19,10 +19,11 @@
 	
 	<build>
 		<plugins>
-			<plugin> 
-		    	<groupId>org.mule.tools.maven</groupId> 
-		    	<artifactId>mule-maven-plugin</artifactId> 
-		    	<version>1.7</version>
+			<plugin>
+			 <groupId>org.mule.tools.maven</groupId>
+			 <artifactId>mule-app-maven-plugin</artifactId>
+			 <version>1.7</version>
+			<extensions>true</extensions>
 		    	<configuration>
 		    	<deploymentType>cloudhub</deploymentType> 
 		    	<muleVersion>3.9.1</muleVersion>
