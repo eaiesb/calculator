@@ -16,13 +16,7 @@
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>
-	<distributionManagement>
-       <repository>
-         <id>maven-deploy-plugin</id>
-         <name>maven-deploy-plugin</name>
-         <url>http://repository.mulesoft.org/releases/</url>
-       </repository>
-   </distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -31,14 +25,7 @@
 			 <version>1.7</version>
 			<extensions>true</extensions>
 		    	<configuration>
-				<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>3.9.1</muleVersion>
-						<username>kiran_padam123</username>
-						<password>Eaiesb@123</password>
-						<applicationName>calculator-munit</applicationName>
-						<environment>Sandbox</environment>
-					</cloudHubDeployment>
+				
 			</configuration>
                              
 				
