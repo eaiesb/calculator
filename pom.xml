@@ -20,7 +20,7 @@
        <repository>
          <id>maven-deploy-plugin</id>
          <name>maven-deploy-plugin</name>
-         <url>https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/</url>
+         <url>http://repository.mulesoft.org/releases/</url>
        </repository>
    </distributionManagement>
 	<build>
