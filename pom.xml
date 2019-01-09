@@ -16,16 +16,7 @@
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>	
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -34,14 +25,7 @@
 			 <version>1.7</version>
 			<extensions>true</extensions>
 		    	<configuration>
-				<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>3.9.1</muleVersion>
-						<username>kiran_padam123</username>
-						<password>Eaiesb@123</password>
-						<applicationName>calculator-munit</applicationName>
-						<environment>Sandbox</environment>
-					</cloudHubDeployment>
+				
 			</configuration>
                              
 				
@@ -83,6 +67,35 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profile>
+  <id>cloudhub</id>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.mule.tools.maven</groupId>
+        <artifactId>mule-maven-plugin</artifactId>
+        <configuration>
+          <deploymentType>cloudhub</deploymentType>
+          <muleVersion>3.9.1</muleVersion> 
+          <username>Kiran_padam123</username> 
+          <password>Eaiesb@123</password> 
+          <applicationName>calculator-munit</applicationName>
+          <environment>Sandbox</environment> 
+          <uri>https://anypoint.mulesoft.com</uri> 
+          </configuration>
+        <executions>
+          <execution>
+            <id>deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
 
 	<!-- Mule Dependencies -->
 	<dependencies>
