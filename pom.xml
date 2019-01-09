@@ -16,6 +16,13 @@
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>
+	<distributionManagement>
+       <repository>
+         <id>maven-deploy-plugin</id>
+         <name>maven-deploy-plugin</name>
+         <url>https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin</url>
+       </repository>
+   </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
