@@ -5,15 +5,15 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
     <munit:config name="munit" doc:name="MUnit configuration"/>
     <spring:beans>
-        <spring:import resource="classpath:calculator-munit.xml"/>
+        <spring:import resource="classpath:calculator-munit-mule3.xml"/>
     </spring:beans>
-    <munit:test name="multiplication-additionTest" description="Test">
+    <munit:test name="Multiplication-calculator-munit-mule3FlowTest" description="Test">
         <munit:set payload="#[]" doc:name="Set Message">
             <munit:inbound-properties>
-                <munit:inbound-property key="http.query.params" value="#[['operator' :'multiplication','number1':'20','number2':'10']]"/>
+                <munit:inbound-property key="http.query.params" value="#[['operator':'mul','Number1':'40','Number2':'4']]"/>
             </munit:inbound-properties>
         </munit:set>
-        <flow-ref name="addition" doc:name="Flow-ref to addition"/>
-        <munit:assert-payload-equals message="fail" expectedValue="200" doc:name="Assert Payload"/>
+        <flow-ref name="calculator-munit-mule3Flow" doc:name="Flow-ref to calculator-munit-mule3Flow"/>
+        <munit:assert-payload-equals message="fail" expectedValue="160.0" doc:name="Assert Payload"/>
     </munit:test>
 </mule>
