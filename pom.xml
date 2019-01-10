@@ -25,14 +25,13 @@
 			         <artifactId>mule-maven-plugin</artifactId>
 			         <version>2.2.1</version>
 			         <configuration>
-			           
 			          <deploymentType>cloudhub</deploymentType>
 				  <muleVersion>3.9.1</muleVersion> 
 				  <username>Kiran_padam123</username> 
 				  <password>Eaiesb@123</password> 
 				  <applicationName>calculator-munit-mule3</applicationName>
 				  <environment>Sandbox</environment> 
-				  
+				  <uri>https://anypoint.mulesoft.com</uri>
 			          <workerType>Micro</workerType>
 					
 			         </configuration>
